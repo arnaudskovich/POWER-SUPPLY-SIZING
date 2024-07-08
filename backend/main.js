@@ -1,7 +1,8 @@
 const e = require("express"),
 dotenv = require("dotenv");
 
-const cfg = dotenv.config();
+dotenv.config();
+
 const app = e();
 
 app.get("/", function (req, res) {
